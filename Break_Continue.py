@@ -1,4 +1,4 @@
-#Break
+#while loop break statement
 input= int(input("Enter value:"))
 i = 1
 
@@ -8,7 +8,7 @@ while i<=input:
     if i==10:
         break
 #--------------------------------------------------------------
-#Continue
+#While loop continue statement
 '''
 input= int(input("Enter value:"))
 i = 1
