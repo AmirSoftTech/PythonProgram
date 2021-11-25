@@ -1,8 +1,9 @@
 for x in range(3):
 
     ch = str(input("Enter value to check vowel or consonant:"))
+    ch = ch.lower()#To vonvert upper case value into lower case
 
-    if ch=='a' or ch=='A' or ch=='e' or ch=='E' or ch=='i' or ch=='I' or ch=='o' or ch=='O' or ch=='u' or ch=='U':
+    if ch == 'a' or ch == 'e' or ch == 'i' or ch == 'o' or ch == 'u':
         print("The letter is vowel.")
 
     elif ch.isdigit():
