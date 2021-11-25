@@ -7,7 +7,7 @@ list.reverse()
 print("sorted data:",list)
 print("Total number of list:",len(list))
 
-print("----------------------------------------------------------------------------")
+print("------------------------------------------------------------------------")
 
 #list.append("Computer Science")
 #list.insert(2,"Computer Science")
