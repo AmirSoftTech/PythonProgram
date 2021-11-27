@@ -9,6 +9,7 @@ student=(
     "Bangladesh"
 )
 
+#check validity
 if "Arian" in student:
     print("True")
 
