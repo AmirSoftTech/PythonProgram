@@ -9,6 +9,9 @@ student=(
     "Bangladesh"
 )
 
+if "Arian" in student:
+    print("True")
+
 print(student)
 print("---------------------------------------------------------------------------")
 for i in student:
