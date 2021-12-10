@@ -5,10 +5,11 @@ print(x)
 y = (lambda x: x * x * x)(2)
 print(y)
 
-#Normal function returns value
+#Normal function returns values
 '''
 def fun (c):
     return c * c *c
 cc = fun(3)
 print(cc)
 '''
+
