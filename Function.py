@@ -8,15 +8,15 @@ def Subtraction(x,y):
     return sub # return value
 
 def Multiplication(x, y):
-    mul = x*y
+    mul = x*y # not return value
     print("Multiplication: ", mul)
 
 def Division(x,y):
-    div = x/y
+    div = x/y # not return value
     print("Division: ", div)
 
 def Remainder(x,y):
-    rem = x % y
+    rem = x % y # not return value
     print("Remainder: ", rem)
 
 x = int(input("Enter value for a:"))
