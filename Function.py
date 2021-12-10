@@ -5,7 +5,7 @@ def Addition(x, y):
 
 def Subtraction(x,y):
     sub = x-y
-    print("Subtraction: ",sub)
+    return sub # return value
 
 def Multiplication(x, y):
     mul = x*y
@@ -19,15 +19,17 @@ def Remainder(x,y):
     rem = x % y
     print("Remainder: ", rem)
 
-a = int(input("Enter value for a:"))
-b = int(input("Enter value for b:"))
+x = int(input("Enter value for a:"))
+y = int(input("Enter value for b:"))
 
 print("-----------------------------------------------")
 
-result = Addition(a, b)
+result = Addition(x, y)
 print("Addition: ", result)
 
-Subtraction(a, b)
-Multiplication(a, b)
-Division(a, b)
-Remainder(a,b)
+result = Subtraction(x, y)
+print("Subtraction: ",result)
+
+Multiplication(x, y)
+Division(x, y)
+Remainder(x, y)
