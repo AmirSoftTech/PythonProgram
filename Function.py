@@ -19,6 +19,7 @@ def Remainder(x,y):
     rem = x % y # not return value
     print("Remainder: ", rem)
 
+#Enter input value
 x = int(input("Enter value for a:"))
 y = int(input("Enter value for b:"))
 
