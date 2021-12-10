@@ -1,4 +1,4 @@
-def student(*details):
+def student(*details): #xxargs and xxxargs
     print(details)
 student(100, "Amir")
 student(100, "Amir", 30)
