@@ -1,22 +1,25 @@
 a = 10
 b = 20
+#Before swapping
 print("Before swapping :")
 print("a:",a, "\nb:",b)
 
+#After swapping
 print("After swapping :")
-c = 0
-c = a
+temp = a
 a = b
-b = c
+b = temp
 print("a:",a, "\nb:",b)
 
-#Alter native swapping approach
+#Alternative swapping approach
 '''
 a = 10
 b = 20
+#Before swapping 
 print("Before swapping :")
 print("a:",a, "\nb:",b)
 
+#After swapping 
 print("After swapping :")
 a, b = b,a
 print("a:",a, "\nb:",b)
