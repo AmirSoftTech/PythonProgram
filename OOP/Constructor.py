@@ -1,9 +1,5 @@
 #Constructor
 class Student:
-    roll = ""
-    gpa = ""
-    address=""
-
     def __init__(self, roll, gpa, address):
         self.roll= roll
         self.gpa= gpa
